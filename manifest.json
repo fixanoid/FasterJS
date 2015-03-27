@@ -1,0 +1,22 @@
+{
+	"name" : "FasterJS",
+	"version" : "0.1",
+	"description" : "FasterJS replaces remotely hosted scripts with local copies for faster browsing",
+	"permissions": [
+		"storage",
+		"tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"http://*/*", "https://*/*"
+	],
+	"icons": { "16": "images/faster-js.png", "48": "images/faster-js-48.png", "128": "images/faster-js-128.png" },
+	"browser_action": {
+		"default_icon": "images/faster-js.png",
+		"default_title": "FasterJS",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": [ "js/jquery-2.1.3.min.js", "lib/background.js" ]
+	},
+	"manifest_version": 2
+}
