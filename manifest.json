@@ -18,7 +18,7 @@
 		"default_popup": "popup.html"
 	},
 	"background": {
-		"scripts": [ "js/jquery-2.1.3.min.js", "browser-js/chrome.api.js", "lib/background.js" ]
+		"scripts": [ "js/jquery-2.1.3.min.js", "browser-js/chrome.api.js", "lib/db.js","lib/background.js" ]
 	},
 	"manifest_version": 2
 }
