@@ -35,5 +35,6 @@ var browser = {
 		return chrome.extension.getURL(file);
 	},
 
-	storage: chrome.storage.local
+	storage: chrome.storage.local,
+	localStorage: window.localStorage
 }
