@@ -10,6 +10,7 @@ var browser = {
 
 		chrome.webNavigation.onBeforeNavigate.addListener(opts.resetTabCount);
 
+		chrome.tabs.onActivated.addListener(opts.updateBadge);
 	},
 
 	updateBadge: function(num, tabId) {
